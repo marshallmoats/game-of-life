@@ -3,14 +3,12 @@ use macroquad::prelude::*;
 
 struct GameState {
     cells: std::collections::HashSet<(i32, i32)>,
-    cells_buffer: std::collections::HashSet<(i32, i32)>,
 }
 
 impl GameState {
     fn new() -> GameState {
         Self {
             cells: std::collections::HashSet::new(),
-            cells_buffer: std::collections::HashSet::new(),
         }
     }
 
