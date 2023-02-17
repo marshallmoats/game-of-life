@@ -1,0 +1,2 @@
+# game-of-life
+Conway's Game of Life simulated in Rust. A small area is randomly filled with live cells to start. Hold space to continue the simulation. You can click to add living cells, and use the arrow keys to move around. The grid is infinite.
